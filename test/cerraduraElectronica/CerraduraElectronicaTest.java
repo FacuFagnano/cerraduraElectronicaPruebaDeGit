@@ -8,7 +8,8 @@ class CerraduraElectronicaTest {
 
 	@Test
 	void test() {
-		
+		CerraduraElectronica cerradura = new CerraduraElectronica();
+		assertTrue(cerradura.estaAbierta());
 	}
 
 }
